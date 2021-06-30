@@ -1,0 +1,21 @@
+.header{
+    margin: 20px auto;
+    width:100%;
+
+}
+.header h1{
+    color: #1C1F26;
+    text-align: center;
+}
+
+.header h1 span{
+    color:#EE5519;
+}
+
+.header p{
+    text-align: center;
+    width:100%;
+    color:#1C1F26;
+    margin: 10px auto;
+    max-width: 500px;
+}

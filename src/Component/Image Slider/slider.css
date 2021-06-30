@@ -1,0 +1,12 @@
+.carousel-indicators .active{
+    background-color:#EE5519;
+    transition: 1s;
+}
+
+.carousel-indicators{
+z-index: 1;
+}
+
+.carousel-inner .carousel-item .slides{
+    width:100%;
+}

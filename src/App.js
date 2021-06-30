@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import AllCards from "./Component/Cards/Allcard";
+import Heading from "./Component/Heading/Heading";
+import Imageslider from "./Component/Image Slider/Imgslide";
+import Navigation from "./Component/Navigation/Nav";
+import Banner from "./Component/Inner_Banner/Banner";
+import Footer from "./Component/Footer/Footer";
 
 function App() {
+  const style = {
+    marginTop:'20px',
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <>
+        <Navigation/>
+        <Imageslider/>
+        <Heading heading='RELEASED' headspan='GAMES' showBody headpara='Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic'/>
+        <AllCards/>
+        <Heading heading='UPCOMING' headspan='GAMES'/>
+        <Banner/>
+        <AllCards style={style}/>
+        <Footer/>
+        
+      </>
     </div>
   );
 }
