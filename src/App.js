@@ -21,7 +21,7 @@ function App() {
       <Router>
 
         <div className="row">
-          <div className="col-xl-12 col-xl-12">
+          <div className="col-xl-12">
             <Navigation />
 
           </div>
