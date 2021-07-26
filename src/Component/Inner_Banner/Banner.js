@@ -4,6 +4,7 @@ import './InnBanner.css'
 
 function Banner(){
     return(
+        
         <div className="container-fluid">
             <div className="row">
                 

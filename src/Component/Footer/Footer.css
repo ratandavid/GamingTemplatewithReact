@@ -4,6 +4,9 @@
 .container{
     padding-top:20px;    
 }
+.justify-content-between{
+    justify-content: space-between!important;
+}
 .footer{
     background: #1c1f26;
     width: 100%;
@@ -43,11 +46,11 @@ ul {
     max-width: fit-content;
 }
 
-.footer-contact ul li:hover{
+.footer-contact .mylist li:hover{
     color:#EE5519;
     cursor: pointer;
     transition: .5s;
-    
+    padding-left:5px;
 }
 .footer-social ul {
     display: flex;

@@ -21,7 +21,7 @@ function Card(props){
                 <div className="overlay_title">
                     <h3> {props.name} </h3>
                 </div>
-                <div class="overlay_platform">
+                <div className="overlay_platform">
                     <p>{props.platform}</p>
                 </div>
             </div>

@@ -1,0 +1,36 @@
+.accessories-item{
+    width: fit-content;
+}
+.accessories-content{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.img{
+    margin-bottom: 30px;
+}
+
+h5 a{
+    color:black;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+}
+
+h5 a:hover{
+    color:#EE5519;
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+
+.accessories-item span{
+    padding-top:10px !important;
+    color:grey;
+    transition: 1s;
+}
+
+.accessories-item:hover span{
+    content: 'At to list';
+    color:#EE5519!important;
+}

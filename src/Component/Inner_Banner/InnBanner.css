@@ -1,6 +1,7 @@
 .banner{
     position: relative;
     /* margin-top: 20px; */
+    width:-webkit-fill-available;
 }
 
 .banner_title{
@@ -8,6 +9,11 @@
     width:100%;
     max-width: 100%;
     
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .banner_title h1{
@@ -49,7 +55,7 @@
     position: relative;
     top:530px;
     overflow: hidden;
-    z-index: 1;    
+    z-index: 2;    
 }
 
 .button:hover{

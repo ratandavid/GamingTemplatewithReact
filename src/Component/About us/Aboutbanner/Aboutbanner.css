@@ -1,0 +1,22 @@
+.background{
+    background-image: url(https://themepixer.com/demo/html/geco/Geco/img/bg/breadcrumb_bg.jpg);
+    padding-top: 275px;
+    padding-bottom: 170px;
+    background-position: center;
+    background-size: cover;
+}
+.b_title{
+    text-align: center!important;
+    width:100%;
+}
+.b_title h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    line-height: .8;
+    
+}
+
+.b_title h1 span{
+    color:#EE5519;
+}

@@ -1,9 +1,9 @@
 import React from'react';
-import './heading.css';
 
 
 
-function Heading(props){
+
+function Teamheading(props){
     return(
         <div className="container-fluid">
             <div className="row">
@@ -16,4 +16,4 @@ function Heading(props){
     );
 }
 
-export default Heading;
+export default Teamheading;

@@ -1,13 +1,20 @@
 .mynav{
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .navbar{
     background-color: #1C1F26;
 }
 
+.navbar-brand{
+    padding: 0!important;
+}
 
 .dropdown-menu{
 background-color:#1C1F26;
@@ -52,3 +59,6 @@ border:1px solid #EE5519;
 }
 
 
+#collapsibleNavbar{
+    flex-grow: 1;
+}

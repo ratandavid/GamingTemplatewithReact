@@ -1,27 +1,54 @@
-import AllCards from "./Component/Cards/Allcard";
-import Heading from "./Component/Heading/Heading";
-import Imageslider from "./Component/Image Slider/Imgslide";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Navigation from "./Component/Navigation/Nav";
-import Banner from "./Component/Inner_Banner/Banner";
+import './App.css';
 import Footer from "./Component/Footer/Footer";
+import Home from "./Component/Home/Home";
+import About from "./Component/About us/About/About"
+import Community from './Component/Community/Community/Community';
+import Store from './Component/Store/Store/Store';
+
+
+
+
+
 
 function App() {
-  const style = {
-    marginTop:'20px',
-  }
+
   return (
+
     <div className="App">
-      <>
-        <Navigation/>
-        <Imageslider/>
-        <Heading heading='RELEASED' headspan='GAMES' showBody headpara='Compete with 100 players on a remote island for winner takes showdown known issue where certain skin strategic'/>
-        <AllCards/>
-        <Heading heading='UPCOMING' headspan='GAMES'/>
-        <Banner/>
-        <AllCards style={style}/>
-        <Footer/>
-        
-      </>
+      <Router>
+
+        <div className="row">
+          <div className="col-xl-12 col-xl-12">
+            <Navigation />
+
+          </div>
+        </div>
+        <div className="row">
+        <div className="col-md-12 col-xl-12">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/About">
+              <About />
+            </Route>
+            <Route path="/Community">
+              <Community />
+            </Route>
+            <Route path="/Store">
+              <Store />
+            </Route>
+          </Switch>
+        </div>
+        </div>
+
+      </Router>
+      
+      <Footer/>
+
     </div>
   );
 }
